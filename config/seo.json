@@ -1,0 +1,26 @@
+{
+  "title": "Modern Apparel",
+  "titleTemplate": "%s - Shop",
+  "description": "Modern Apparel - Revoutionizing The Way People Think About Apparel.",
+  "openGraph": {
+    "title": "Modern Apparel",
+    "description": "Modern Apparel - Revoutionizing The Way People Think About Apparel.",
+    "type": "website",
+    "locale": "en_CA",
+    "url": "https://www.modernapparel.ga",
+    "site_name": "Modern Apparel",
+    "images": [
+      {
+        "url": "/card.png",
+        "width": 800,
+        "height": 600,
+        "alt": "Modern Apparel"
+      }
+    ]
+  },
+  "twitter": {
+    "handle": "@modernapparel",
+    "site": "@modernapparel",
+    "cardType": "summary_large_image"
+  }
+}
