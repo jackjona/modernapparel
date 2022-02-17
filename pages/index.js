@@ -30,7 +30,8 @@ export default function Home() {
         <meta property="og:locale" content="en_US" />
         <meta property="og:site_name" content="Modern Apparel" />
       </Head>
-      <div className='bg-white dark:bg-gray-900'>
+      {/* Need to get screenshot of dark-mode so temp. removed: bg-white dark:*/}
+      <div className='bg-gray-900'>
         <Announcement />
         <Navbar />
         <Hero />
