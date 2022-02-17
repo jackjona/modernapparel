@@ -5,9 +5,11 @@ Modern Apparel Is An Ecommerce Landing Page Built With Next.js and Tailwind CSS.
 
 ## Screenshots
 Light Mode:
+
 ![Light Mode](public/screenshot.jpg)
 Dark Mode:
-![Dark Mode](public/dark-screenshot.jpg)
+
+![Dark Mode](public/dark-screenshot.png)
 
 ## Shop Page
 For the shop page, please visit the `shop` branch in this repository.
