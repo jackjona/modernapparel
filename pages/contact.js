@@ -14,7 +14,7 @@ const contact = () => {
           <div className="flex flex-col justify-between">
             <div className="space-y-2">
               <h2 className="dark:text-gray-100 text-4xl font-bold leading-tight lg:text-5xl">
-                Let's talk!
+                Let&#39;s talk!
               </h2>
               <div className="text-gray-600 dark:text-gray-200">Don&#39;t Hesitate To Contact Us</div>
             </div>
