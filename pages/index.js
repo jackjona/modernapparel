@@ -19,7 +19,6 @@ export default function Home() {
       <Head>
         <title>Modern Apparel</title>
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
-        <meta httpEquiv="Content-Type" content="text/html; charset=ISO-8859-1" />
         <meta name="description" content="Modern Apparel - Revoutionizing The Way People Think About Apparel." />
         <meta property="og:title" content="Modern Apparel" />
         <meta property="og:type" content="website" />
