@@ -33,31 +33,31 @@ const Navbar = () => {
         </a>
         <nav className="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
           <a
-            className="mr-5 hover:text-gray-900 border-black hover:border-b-2"
+            className="mr-5 hover:text-gray-900 dark:hover:text-gray-100 border-black hover:border-b-2"
             href="/"
           >
             Home
           </a>
           <a
-            className="mr-5 hover:text-gray-900 border-black hover:border-b-2"
+            className="mr-5 hover:text-gray-900 dark:hover:text-gray-100 border-black hover:border-b-2"
             href="https://shop.modernapparel.ga/"
           >
             New
           </a>
           <a
-            className="mr-5 hover:text-gray-900 border-black hover:border-b-2"
+            className="mr-5 hover:text-gray-900 dark:hover:text-gray-100 border-black hover:border-b-2"
             href="https://shop.modernapparel.ga/search/mens-apparel"
           >
             Mens
           </a>
           <a
-            className="mr-5 hover:text-gray-900 border-black hover:border-b-2"
+            className="mr-5 hover:text-gray-900 dark:hover:text-gray-100 border-black hover:border-b-2"
             href="https://shop.modernapparel.ga/search/womens-apparel"
           >
             Womens
           </a>
           <a
-            className="mr-5 hover:text-gray-900 border-black hover:border-b-2"
+            className="mr-5 hover:text-gray-900 dark:hover:text-gray-100 border-black hover:border-b-2"
             href="https://shop.modernapparel.ga/search/accessories"
           >
             Accessories

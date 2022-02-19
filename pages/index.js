@@ -1,7 +1,5 @@
 import Head from 'next/head'
 
-import Announcement from '../components/Announcement'
-import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import ProductGrid from "../components/ProductGrid"
 import Banner from "../components/Banner"
@@ -10,7 +8,6 @@ import LeftRight1 from "../components/LeftRight1"
 import RightLeft2 from "../components/RightLeft2"
 import Banner2 from "../components/Banner2"
 import InfoBanner from "../components/InfoBanner"
-import Footer from '../components/Footer'
 
 
 export default function Home() {
@@ -29,9 +26,7 @@ export default function Home() {
         <meta property="og:locale" content="en_US" />
         <meta property="og:site_name" content="Modern Apparel" />
       </Head>
-      <div className='bg-white dark:bg-gray-900'>
-        <Announcement />
-        <Navbar />
+      <>
         <Hero />
         <ProductGrid />
         <Banner />
@@ -40,8 +35,7 @@ export default function Home() {
         <RightLeft2 />
         <Banner2 />
         <InfoBanner />
-        <Footer />
-      </div>
+      </>
     </>
   )
 }

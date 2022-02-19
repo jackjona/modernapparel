@@ -1,15 +1,9 @@
 import React from "react";
 
-import Announcement from '../components/Announcement';
-import Footer from '../components/Footer';
-import Navbar from '../components/Navbar';
-
 const contact = () => {
   return (
     <>
       <div className="bg-white dark:bg-slate-900 ">
-        <Announcement />
-        <Navbar />
         <div className="w-10/12 py-16 mx-auto  md:grid-cols-2 md:px-12 lg:px-16 xl:px-32">
           <div className="flex flex-col justify-between">
             <div className="space-y-2">
@@ -68,7 +62,6 @@ const contact = () => {
           </form>
         </div>
       </div>
-      <Footer />
     </>
   );
 };

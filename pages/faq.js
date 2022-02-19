@@ -3,7 +3,7 @@ import React from "react";
 const faq = () => {
   return (
     <>
-    <code>Error 404</code>
+    <code className="text-black dark:text-white ">Error 404</code>
     {/*
       <div>
     

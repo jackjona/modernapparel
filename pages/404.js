@@ -2,16 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-
-import Announcement from '../components/Announcement';
-import Footer from '../components/Footer';
-import Navbar from '../components/Navbar';
-
 const Custom404 = () => {
     return (
       <div className="bg-white dark:bg-slate-900">
-        <Announcement />
-        <Navbar />
         <main className=" relative overflow-hidden h-screen">
           <header className="absolute top-0 left-0 right-0 z-20">
             <nav className="container mx-auto px-6 md:px-12 py-4">
@@ -63,7 +56,6 @@ const Custom404 = () => {
             </div>
           </div>
         </main>
-        <Footer />
       </div>
     );
   };
