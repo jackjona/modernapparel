@@ -14,16 +14,14 @@ export default function Home() {
   return (
     <>
       <Head>
+        <meta charset="utf-8" /> 
         <title>Modern Apparel</title>
-        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="description" content="Modern Apparel - Revoutionizing The Way People Think About Apparel." />
         <meta property="og:title" content="Modern Apparel" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.modernapparel.ga" />
         <meta property="og:image" content="https://www.modernapparel.ga/share.png" />
-        <meta property="og:description"
-          content="Modern Apparel - Revoutionizing The Way People Think About Apparel." />
-        <meta property="og:locale" content="en_US" />
+        <meta property="og:description" content="Modern Apparel - Revoutionizing The Way People Think About Apparel." />
         <meta property="og:site_name" content="Modern Apparel" />
       </Head>
       <>
