@@ -20,6 +20,17 @@ module.exports = {
         vh: '55vh',
         lgvh: '65vh',
       },
+      keyframes: {
+        fadeOut: {      
+          '0%': { opacity: '1' },
+          '80%': { opacity: '1' }, 
+          '90%': { opacity: '0' },
+          '100%': { opacity: '0' },
+        }
+      },
+      animation: {
+        hideme: 'fadeOut 10s linear forwards',
+      }
     },
   },
   plugins: [],
