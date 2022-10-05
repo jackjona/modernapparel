@@ -14,9 +14,9 @@ const contact = () => {
             </div>
           </div>
           <form
-            novalidate=""
-            action="https://formspree.io/f/xzbobbpp"
+            name="contact"
             method="POST"
+            data-netlify="true"
             className="space-y-6 ng-untouched ng-pristine ng-valid"
           >
             <div className="mt-10">

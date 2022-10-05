@@ -132,11 +132,17 @@ const Footer = () => {
             <div className="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
               <div className="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
                 <form
-                  name="modern apparel newsletter"
+                  name="newsletter-signup"
                   method="POST"
-                  action="https://jackjona.us1.list-manage.com/subscribe/post?u=e52fd31b4b26cc754c9ca4496&amp;id=33995af06a"
+                  netlify-honeypot="bot-field"
+                  data-netlify="true"
                 >
                   <div>
+                  <p aria-hidden="true" className="hidden">
+                    <label>
+                      Don’t fill this out if you’re human: <input name="bot-field" />
+                    </label>
+                  </p>
                     <input
                       type="email"
                       name="EMAIL"
@@ -152,14 +158,6 @@ const Footer = () => {
                     >
                       Subscribe
                     </button>
-                    <div aria-hidden="true" className="hidden">
-                      <input
-                        type="text"
-                        name="b_e52fd31b4b26cc754c9ca4496_33995af06a"
-                        tabIndex="-1"
-                        value=""
-                      />
-                    </div>
                   </div>
                 </form>
               </div>
