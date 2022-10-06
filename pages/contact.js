@@ -31,6 +31,7 @@ export default function Contact() {
           data-netlify="true"
           className="space-y-6 ng-untouched ng-pristine ng-valid"
         >
+          <input type="hidden" name="form-name" value="contact" />
           <div className="mt-10">
             <label className="text-lg dark:text-gray-200">Full name</label>
             <input

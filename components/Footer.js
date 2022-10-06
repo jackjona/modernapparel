@@ -12,7 +12,10 @@ const Footer = () => {
             </h2>
             <nav className="list-none mb-10">
               <li>
-                <Link className="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100" href="/">
+                <Link
+                  className="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100"
+                  href="/"
+                >
                   Home
                 </Link>
               </li>
@@ -25,7 +28,10 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a className="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100" href="/faq">
+                <a
+                  className="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100"
+                  href="/faq"
+                >
                   FAQ
                 </a>
               </li>
@@ -137,6 +143,11 @@ const Footer = () => {
                   data-netlify="true"
                   action="/confirmation"
                 >
+                  <input
+                    type="hidden"
+                    name="form-name"
+                    value="newsletter-signup"
+                  />
                   <div>
                     <input
                       type="email"
