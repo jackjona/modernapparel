@@ -134,19 +134,13 @@ const Footer = () => {
                 <form
                   name="newsletter-signup"
                   method="POST"
-                  netlify-honeypot="bot-field"
                   data-netlify="true"
+                  action="/confirmation"
                 >
                   <div>
-                  <p aria-hidden="true" className="hidden">
-                    <label>
-                      Don’t fill this out if you’re human: <input name="bot-field" />
-                    </label>
-                  </p>
                     <input
                       type="email"
-                      name="EMAIL"
-                      id="mce-EMAIL"
+                      name="email"
                       placeholder="Email Address"
                       className="email w-full bg-gray-100 dark:bg-gray-300  bg-opacity-50 rounded border border-gray-300 dark:border-gray-200 focus:bg-transparent focus:ring-2 focus:ring-emerald-200 focus:border-emerald-500 text-base outline-none text-gray-700 dark:text-gray-200 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                       required
