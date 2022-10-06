@@ -141,7 +141,7 @@ const Footer = () => {
                   name="newsletter-signup"
                   method="POST"
                   data-netlify="true"
-                  action="/confirmation"
+                  action="/newsletter-success"
                 >
                   <input
                     type="hidden"

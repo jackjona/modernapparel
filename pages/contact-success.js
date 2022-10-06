@@ -1,18 +1,10 @@
-import { useState, useEffect } from "react";
+import React from "react";
 import Notification from "../components/Notification";
 
-export default function Contact() {
-  const [success, setSuccess] = useState(false);
-
-  useEffect(() => {
-    if (window.location.search.includes("success=true")) {
-      setSuccess(true);
-    }
-  }, []);
-
+export default function ContactSuccess() {
   return (
     <div className="bg-white dark:bg-slate-900">
-      {success && <Notification />}
+      <Notification />
       <div className="w-10/12 max-w-screen-lg  py-16 mx-auto  md:grid-cols-2 md:px-12 lg:px-16 xl:px-32">
         <div className="flex flex-col justify-between">
           <div className="space-y-2">
@@ -25,16 +17,17 @@ export default function Contact() {
           </div>
         </div>
         <form
-          name="contact"
+          name="contact-confirmationpage"
           method="POST"
-          /* Replace action with below to see popup on submission
-          action="./contact?success=true"
-          */
           action="/contact-success"
           data-netlify="true"
           className="space-y-6 ng-untouched ng-pristine ng-valid"
         >
-          <input type="hidden" name="form-name" value="contact" />
+          <input
+            type="hidden"
+            name="form-name"
+            value="contact-confirmationpage"
+          />
           <div className="mt-10">
             <label className="text-lg dark:text-gray-200">Full name</label>
             <input

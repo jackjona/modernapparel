@@ -18,6 +18,7 @@ For the shop page, please visit the `shop` branch in this repository.
 - React
 - Next.js
 - Tailwind CSS
+- Netlify Forms
 
 ## Develop Locally
 
