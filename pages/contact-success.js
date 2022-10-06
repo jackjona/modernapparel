@@ -17,7 +17,7 @@ export default function ContactSuccess() {
           </div>
         </div>
         <form
-          name="contact-confirmationpage"
+          name="confirmation-contact"
           method="POST"
           action="/contact-success"
           data-netlify="true"
@@ -26,7 +26,7 @@ export default function ContactSuccess() {
           <input
             type="hidden"
             name="form-name"
-            value="contact-confirmationpage"
+            value="confirmation-contact"
           />
           <div className="mt-10">
             <label className="text-lg dark:text-gray-200">Full name</label>
