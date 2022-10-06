@@ -11,9 +11,9 @@ export default function Contact() {
   }, []);
 
   return (
-    <div className="bg-white dark:bg-slate-900 ">
+    <div className="bg-white dark:bg-slate-900">
       {success && <Notification />}
-      <div className="w-10/12 py-16 mx-auto  md:grid-cols-2 md:px-12 lg:px-16 xl:px-32">
+      <div className="w-10/12 max-w-screen-lg  py-16 mx-auto  md:grid-cols-2 md:px-12 lg:px-16 xl:px-32">
         <div className="flex flex-col justify-between">
           <div className="space-y-2">
             <h2 className="dark:text-gray-100 text-4xl font-bold leading-tight lg:text-5xl">
@@ -27,7 +27,7 @@ export default function Contact() {
         <form
           name="contact"
           method="POST"
-          action="/contact?success=true"
+          action="./contact?success=true"
           data-netlify="true"
           className="space-y-6 ng-untouched ng-pristine ng-valid"
         >
