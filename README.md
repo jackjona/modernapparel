@@ -1,20 +1,23 @@
-![Card](public/card.png)
+![Modern Apparel Logo Card](public/card.png)
+
 # Moden Apparel - Landing Page
 
-Modern Apparel Is An Ecommerce Landing Page Built With Next.js and Tailwind CSS.
+Modern Apparel is an Ecommerce Landing Page Built With Next.js and Tailwind CSS.
 
 ## Screenshots
-Light Mode:
 
-![Light Mode](public/screenshot.jpg)
-Dark Mode:
+| Dark Mode                  | Light Mode                      |
+| -------------------------- | ------------------------------- |
+| ![](public/screenshot.jpg) | ![](public/dark-screenshot.png) |
 
-![Dark Mode](public/dark-screenshot.png)
+---
 
 ## Shop Page
+
 For the shop page, please visit the `shop` branch in this repository.
 
 ## Software & Resources
+
 - React
 - Next.js
 - Tailwind CSS
@@ -40,13 +43,15 @@ yarn dev
 
 ## Star ⭐
 
-If you find this project helpful, please star this repository. 
+If you find this project helpful, please star this repository.
 
 ## License
+
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 View more information in [LICENSE.md](LICENSE.md)
 
 ## Credits
+
 - This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 - All images are property of their respective owners.
 
