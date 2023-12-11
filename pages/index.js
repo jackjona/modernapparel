@@ -20,10 +20,10 @@ export default function Home() {
         />
         <meta property="og:title" content="Modern Apparel" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.modernapparel.ga" />
+        <meta property="og:url" content="https://modernapparel.vercel.app" />
         <meta
           property="og:image"
-          content="https://www.modernapparel.ga/share.png"
+          content="https://modernapparel.vercel.app/share.png"
         />
         <meta
           property="og:description"
