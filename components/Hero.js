@@ -12,7 +12,7 @@ const Hero = () => {
             <div className="m-auto max-w-3xl">
               <p className="text-lg sm:text-2xl text-gray-900 dark:text-gray-100 capitalize">
                 For a limited time, stock up on some of our most gift-able
-                picks. These steals won't stick around!
+                picks. These steals won&apos;t stick around!
                 {/* Snap them up quick, values like this are too good to
                 last. */}
               </p>
