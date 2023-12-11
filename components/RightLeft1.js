@@ -9,7 +9,6 @@ const RightLeft2 = () => {
             Homey
           </span>
           <h1 className=" mb-8 text-4xl font-bold leading-none tracking-tighter text-neutral-600 dark:text-neutral-200 md:text-7xl lg:text-5xl uppercase ">
-            
             Cozy Sweaters.
           </h1>
           <p className="mb-8 text-base leading-relaxed text-center md:text-left text-gray-500 dark:text-gray-200 capitalize max-w-full lg:max-w-sm">
@@ -18,7 +17,7 @@ const RightLeft2 = () => {
           </p>
           <div className="mt-0 lg:mt-6 max-w-7xl sm:flex">
             <div className="mt-3 rounded-lg sm:mt-0">
-              <a href="https://shop.modernapparel.ga/search">
+              <a href="https://modernapparel.vercel.app/search">
                 <button
                   className="
                     items-center
@@ -44,7 +43,6 @@ const RightLeft2 = () => {
             
                   "
                 >
-                  
                   View More
                 </button>
               </a>
@@ -76,4 +74,3 @@ const RightLeft2 = () => {
 };
 
 export default RightLeft2;
-

@@ -6,21 +6,18 @@ const RightLeft2 = () => {
       <div className="flex flex-wrap items-center mx-auto max-w-7xl">
         <div className="flex flex-col items-center lg:items-start mt-12 mb-0 sm:mb-16 text-left lg:flex-grow lg:w-1/2 lg:pl-6 xl:pl-24 md:mb-0 xl:mt-0 m-auto pb-16 sm:pb-20">
           <span className="mb-8 text-xs font-bold text-emerald-600 uppercase animate-none sm:animate-pulse">
-            
             Everyday Comfort
           </span>
           <h1 className=" mb-8 text-4xl font-bold leading-none tracking-tighter text-neutral-600 dark:text-neutral-200 md:text-7xl lg:text-5xl uppercase ">
-            
             Casual Comfort
           </h1>
           <p className="mb-8 text-base leading-relaxed text-center md:text-left text-gray-500 dark:text-gray-200 capitalize max-w-full lg:max-w-sm">
-            
             Clothes that are so comfortable you&#39;ll be wanting to wear them
             everywhere.
           </p>
           <div className="mt-0 lg:mt-6 max-w-7xl sm:flex">
             <div className="mt-3 rounded-lg sm:mt-0">
-              <a href="https://shop.modernapparel.ga/search">
+              <a href="https://modernapparel.vercel.app/search">
                 <button
                   className="
                     items-center
@@ -46,7 +43,6 @@ const RightLeft2 = () => {
             
                   "
                 >
-                  
                   View More
                 </button>
               </a>
@@ -74,4 +70,3 @@ const RightLeft2 = () => {
 };
 
 export default RightLeft2;
-

@@ -22,7 +22,7 @@ const Footer = () => {
               <li>
                 <a
                   className="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100"
-                  href="https://shop.modernapparel.ga"
+                  href="https://modernapparel.vercel.app"
                 >
                   All Products
                 </a>
@@ -38,7 +38,7 @@ const Footer = () => {
               <li>
                 <a
                   className="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100"
-                  href="https://shop.modernapparel.ga/en-US/about-us"
+                  href="https://modernapparel.vercel.app/en-US/about-us"
                 >
                   About Us
                 </a>
@@ -61,7 +61,7 @@ const Footer = () => {
               <li>
                 <a
                   className="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100"
-                  href="https://shop.modernapparel.ga/en-US/free-shipping"
+                  href="https://modernapparel.vercel.app/en-US/free-shipping"
                 >
                   Free Shipping Information
                 </a>
@@ -69,7 +69,7 @@ const Footer = () => {
               <li>
                 <a
                   className="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100"
-                  href="https://shop.modernapparel.ga/en-US/extended-returns"
+                  href="https://modernapparel.vercel.app/en-US/extended-returns"
                 >
                   Extended Returns
                 </a>
@@ -77,7 +77,7 @@ const Footer = () => {
               <li>
                 <a
                   className="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100"
-                  href="https://shop.modernapparel.ga/en-US/gift-cards"
+                  href="https://modernapparel.vercel.app/en-US/gift-cards"
                 >
                   Gift Cards
                 </a>
@@ -100,7 +100,7 @@ const Footer = () => {
               <li>
                 <a
                   className="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100"
-                  href="https://shop.modernapparel.ga/en-US/return-policy"
+                  href="https://modernapparel.vercel.app/en-US/return-policy"
                 >
                   Return Policy
                 </a>
@@ -108,7 +108,7 @@ const Footer = () => {
               <li>
                 <a
                   className="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100"
-                  href="https://shop.modernapparel.ga/en-US/shipping-policy"
+                  href="https://modernapparel.vercel.app/en-US/shipping-policy"
                 >
                   Shipping Policy
                 </a>
@@ -116,7 +116,7 @@ const Footer = () => {
               <li>
                 <a
                   className="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100"
-                  href="https://shop.modernapparel.ga/en-US/privacy-policy"
+                  href="https://modernapparel.vercel.app/en-US/privacy-policy"
                 >
                   Privacy Policy
                 </a>
@@ -124,7 +124,7 @@ const Footer = () => {
               <li>
                 <a
                   className="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-gray-100"
-                  href="https://shop.modernapparel.ga/en-US/terms-and-conditions"
+                  href="https://modernapparel.vercel.app/en-US/terms-and-conditions"
                 >
                   Terms & Conditions
                 </a>
@@ -171,7 +171,7 @@ const Footer = () => {
             <p className="text-gray-500 dark:text-gray-200 text-sm mt-2 md:text-left text-center">
               By signing up you agree to our &nbsp;
               <a
-                href="https://shop.modernapparel.ga/terms-and-conditions"
+                href="https://modernapparel.vercel.app/terms-and-conditions"
                 className="underline"
               >
                 Terms & Conditions
@@ -282,4 +282,3 @@ const Footer = () => {
 };
 
 export default Footer;
-

@@ -13,7 +13,7 @@ const InfoBanner = () => {
           <h2 className="pt-4">Free Shipping On Orders $50+</h2>
           <a
             className="p-2 text-sm underline"
-            href="https://shop.modernapparel.ga/en-US/free-shipping"
+            href="https://modernapparel.vercel.app/en-US/free-shipping"
           >
             Learn More
           </a>
@@ -27,7 +27,7 @@ const InfoBanner = () => {
           <h2 className="pt-4">Extended Returns</h2>
           <a
             className="p-2 text-sm underline"
-            href="https://shop.modernapparel.ga/en-US/extended-returns"
+            href="https://modernapparel.vercel.app/en-US/extended-returns"
           >
             Learn More
           </a>
@@ -55,7 +55,7 @@ const InfoBanner = () => {
           <h2 className="pt-4">Gift Cards</h2>
           <a
             className="p-2 text-sm underline"
-            href="https://shop.modernapparel.ga/en-US/gift-cards"
+            href="https://modernapparel.vercel.app/en-US/gift-cards"
           >
             Learn More
           </a>
@@ -66,4 +66,3 @@ const InfoBanner = () => {
 };
 
 export default InfoBanner;
-

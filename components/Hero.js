@@ -12,14 +12,15 @@ const Hero = () => {
             <div className="m-auto max-w-3xl">
               <p className="text-lg sm:text-2xl text-gray-900 dark:text-gray-100 capitalize">
                 For a limited time, stock up on some of our most gift-able
-                picks. Snap them up quick, values like this are too good to
-                last.
+                picks. These steals won't stick around!
+                {/* Snap them up quick, values like this are too good to
+                last. */}
               </p>
             </div>
             <div className="mt-5 max-w-md mx-auto flex justify-center items-center md:mt-8">
               <a
-                href="https://shop.modernapparel.ga"
-                className="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium py-3 border-transparent rounded-md text-white bg-emerald-900 hover:bg-emerald-800"
+                href="https://modernapparel.vercel.app"
+                className="inline-flex items-center justify-center h-12 px-8 py-8 mr-6 font-medium border-transparent rounded-md text-xl text-white bg-emerald-900 hover:bg-emerald-800"
               >
                 SHOP NOW
               </a>
@@ -32,4 +33,3 @@ const Hero = () => {
 };
 
 export default Hero;
-

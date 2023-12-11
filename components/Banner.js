@@ -9,9 +9,7 @@ const Banner = () => {
             <h2 className="pb-6 text-4xl sm:text-5xl font-extrabold drop-shadow-2xl">
               Spending The Holidays At Home
             </h2>
-            <p className="">
-              Enjoy the indoors while wearing comfortable apparel.
-            </p>
+            <p>Enjoy the indoors while wearing comfortable apparel.</p>
           </div>
         </div>
       </div>
@@ -20,4 +18,3 @@ const Banner = () => {
 };
 
 export default Banner;
-

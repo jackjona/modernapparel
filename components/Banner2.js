@@ -13,9 +13,9 @@ const Banner2 = () => {
               <span className="text-red-600">Holiday</span> Season
             </h2>
             <p className="pt-4 text-gray-900 dark:text-gray-200">
-              <span className>Donate</span> to the Canadian Red Cross, a
-              nonprofit giving individuals clothing to stay warm throught the
-              winter.
+              <span className="font-semibold">Donate</span> to the Canadian Red
+              Cross, a nonprofit giving individuals clothing to stay warm
+              throught the winter.
             </p>
           </div>
         </div>
@@ -25,4 +25,3 @@ const Banner2 = () => {
 };
 
 export default Banner2;
-

@@ -14,7 +14,7 @@ const ProductGrid = () => {
             Outerwear
           </p>
           <a
-            href="https://shop.modernapparel.ga/search"
+            href="https://modernapparel.vercel.app/search"
             className="inline-flex items-center justify-center h-12 mt-1/2 px-9 py-6 font-semibold  border-transparent rounded-lg text-gray-900 bg-white hover:bg-gray-200"
           >
             Shop Now
@@ -32,7 +32,7 @@ const ProductGrid = () => {
             Knitwear
           </p>
           <a
-            href="https://shop.modernapparel.ga/search"
+            href="https://modernapparel.vercel.app/search"
             className="inline-flex items-center justify-center h-12 mt-1/2 px-9 py-6 font-semibold  border-transparent rounded-lg text-white bg-gray-900 hover:bg-gray-800"
           >
             Shop Now
@@ -50,7 +50,7 @@ const ProductGrid = () => {
             Business Casual
           </p>
           <a
-            href="https://shop.modernapparel.ga/search"
+            href="https://modernapparel.vercel.app/search"
             className="inline-flex items-center justify-center h-12 mt-1/2 px-9 py-6 font-semibold  border-transparent rounded-lg text-white bg-gray-900 hover:bg-gray-800"
           >
             Shop Now
@@ -68,7 +68,7 @@ const ProductGrid = () => {
             Loungewear
           </p>
           <a
-            href="https://shop.modernapparel.ga/search"
+            href="https://modernapparel.vercel.app/search"
             className="inline-flex items-center justify-center h-12 mt-1/2 px-9 py-6 font-semibold  border-transparent rounded-lg text-gray-900 bg-white hover:bg-gray-200"
           >
             Shop Now
@@ -80,4 +80,3 @@ const ProductGrid = () => {
 };
 
 export default ProductGrid;
-
