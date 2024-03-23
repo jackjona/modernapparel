@@ -38,10 +38,12 @@ const Custom404 = () => {
               <h1 className="font-thin text-center text-6xl text-gray-800 dark:text-white">
                 GOT LOST ?
               </h1>
-              <Link href="/">
-                <a className="text-black dark:text-gray-200 px-3 py-2 w-32 font-light transition ease-in duration-200 uppercase hover:bg-emerald-600 hover:text-white dark:hover:text-gray-100 border-b text-2xl border-green-600 focus:outline-none">
+              <Link
+                href="/"
+                className="text-black dark:text-gray-200 px-3 py-2 w-32 font-light transition ease-in duration-200 uppercase hover:bg-emerald-600 hover:text-white dark:hover:text-gray-100 border-b text-2xl border-green-600 focus:outline-none">
+                
                   Go Home
-                </a>
+                
               </Link>
             </div>
             <div>

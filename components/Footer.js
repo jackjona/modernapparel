@@ -137,6 +137,7 @@ const Footer = () => {
             </h2>
             <div className="flex xl:flex-nowrap md:flex-nowrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start">
               <div className="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
+                {/* Use Netlify Forms for the newsletter signup */}
                 <form
                   name="newsletter-signup"
                   method="POST"

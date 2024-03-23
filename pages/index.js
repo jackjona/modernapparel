@@ -16,18 +16,18 @@ export default function Home() {
         <title>Modern Apparel</title>
         <meta
           name="description"
-          content="Modern Apparel - Revoutionizing The Way People Think About Apparel."
+          content="Modern Apparel - Revolutionizing The Way People Think About Apparel."
         />
         <meta property="og:title" content="Modern Apparel" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://modernapparel.vercel.app" />
+        <meta property="og:url" content="https://modernapparel.netlify.app" />
         <meta
           property="og:image"
-          content="https://modernapparel.vercel.app/share.png"
+          content="https://modernapparel.netlify.app/share.png"
         />
         <meta
           property="og:description"
-          content="Modern Apparel - Revoutionizing The Way People Think About Apparel."
+          content="Modern Apparel - Revolutionizing The Way People Think About Apparel."
         />
         <meta property="og:site_name" content="Modern Apparel" />
       </Head>
